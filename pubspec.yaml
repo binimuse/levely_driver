@@ -1,0 +1,73 @@
+name: lively_driver
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  google_maps_flutter: 
+  location: ^4.4.0
+  flutter_polyline_points: ^1.0.0
+
+  dotted_line: ^3.1.0
+  geolocator: ^9.0.2
+  qr_code_scanner: ^1.0.1
+  flutter: 
+    sdk: flutter
+  get_cli: ^1.8.1
+  sizer: ^2.0.15
+  flutter_switch: ^0.3.2
+  cached_network_image: ^3.2.0
+  image: ^3.1.0
+  image_picker: ^0.8.5+3
+  shared_preferences: ^2.0.15
+  shimmer: ^2.0.0
+  font_awesome_flutter:
+    path: ../font_awesome_flutter-master/
+  smooth_page_indicator: ^1.0.0+2
+  flutter_svg: ^1.1.5
+  graphql_flutter: ^5.1.0
+  salomon_bottom_bar: ^3.3.1
+  elegant_notification: ^1.6.3
+  flutter_ringtone_player: ^3.2.0
+  cupertino_tabbar: ^2.0.0
+  flutter_advanced_segment: ^3.0.1
+  lottie: ^1.4.3
+
+  firebase_database: ^10.0.6
+  firebase_core: ^2.3.0
+  cloud_firestore: ^4.1.0
+  fcm_config: ^3.5.0
+  qr_flutter: ^4.0.0
+  slider_button: ^2.0.0
+  url_launcher: ^6.1.7
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  lints: 2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/med.png
+    - assets/images/doc.png
+    - assets/images/logo.png
+    - assets/images/logo_green.png
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 700
+
+
